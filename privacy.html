@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Privacy Policy | ORBIT by conneptic</title>
+  <meta name="description" content="Privacy Policy for ORBIT, the mobile game by conneptic.">
+  <link rel="stylesheet" href="legal.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">O</span><span>ORBIT <small>by conneptic</small></span></a>
+    <nav aria-label="Legal documents"><a href="privacy.html" aria-current="page">Privacy Policy</a>
+<a href="terms.html">Terms of Service</a>
+<a href="deletion.html">Data Deletion</a>
+<a href="imprint.html">Imprint</a></nav>
+  </header>
+  <main id="main-content">
+    <div class="draft-note"><strong>ORBIT 1.2.1</strong><span>Optional services depend on the configuration of your installed build. You can change privacy choices in the game.</span></div>
+    <article>
+      <h1>Privacy Policy</h1>
+      <p><strong>As of 11 October 2026</strong></p>
+<p>This notice describes the mobile game <strong>ORBIT</strong>. It distinguishes the supplied default build, where optional analytics, advertising, and in-app purchases are disabled, from a later release where those features may be enabled after the services below are configured. Before each release, the actual SDKs and store declarations must be checked against this policy.</p>
+<h2>1. Controller and contact</h2>
+<p>The controller under the General Data Protection Regulation (GDPR), where applicable, is:</p>
+<p><strong>Hermann Fischer</strong>, using the business name/brand <strong>conneptic</strong><br>Merianstr. 10, 75015 Bretten, Germany<br><a href="mailto:hec_er@web.de">Email: hec_er@web.de</a></p>
+<p>German VAT identification number: DE282961319. ORBIT has no player account and no profile form that requires extra personal details. Please include only information needed to handle a request. This policy does not list a Data Protection Officer as a contact; if one must legally be appointed, the required contact information must be added before publication.</p>
+<h2>2. Data and features in the Game</h2>
+<h3>Save data on your device</h3>
+<p>ORBIT stores campaign progress, daily-run state, settings, statistics, Style Shards, cosmetic color unlocks, and a temporary run checkpoint in a local JSON file in app storage. Core gameplay does not require an account or network connection. ORBIT does not operate a game-save server or cross-device synchronization, and has no chat, user-generated content, or requested precise-location or contacts feature.</p>
+<p>Depending on your backup settings, the operating system may include app data in a device or cloud backup. That feature is controlled by your operating system or device provider, not ORBIT. The in-game RESET LOCAL GAME DATA action deletes progress, settings, and the local save, but does not delete data already received by a third party. Uninstalling or clearing the app generally removes local data; operating-system backups may be retained under separate rules.</p>
+<h3>First launch and optional analytics</h3>
+<p>An information screen appears on first launch. If optional analytics are enabled in a later release, the screen gives a separate, voluntary choice: ALLOW OPTIONAL ANALYTICS or CONTINUE WITHOUT ANALYTICS. Analytics stays off without your permission. You can withdraw your choice in Settings. Withdrawal stops further collection by Unity Analytics; a separate DELETE OPTIONAL ANALYTICS DATA action can send a deletion request for analytics data already stored by that service. Turning analytics off alone is not a deletion request.</p>
+<p>When enabled and permitted, Unity Analytics may process a pseudonymous Unity installation/player reference, session and technical app/device information, and an approximate region derived by the provider. ORBIT sends a limited set of gameplay events, including tutorial progress, run start, mission/upgrade choices, tower repositioning, assist-mode start, app resume, run completion, and optional rewarded-ad completion. The first successful tutorial chain event includes active simulation seconds from the tutorial start. Events may include a randomly generated per-run identifier and app, content, or event-schema versions. They contain categories or mission identifiers and numeric values, not free text, contact details, or precise location. Unity may also collect standard events documented for its Analytics SDK. The Unity Analytics iOS privacy manifest included with the current package declares user ID, device ID, coarse location, purchase history, product interaction, advertising data, performance data, diagnostic data, and other data types for analytics purposes; its data-type entries mark device ID and purchase history as tracking. The manifest describes the SDK's declared use and is not by itself proof that every type is collected in this Game. Before enabling Analytics on iOS, the publisher must reconcile the exact SDK behavior, Unity Dashboard settings, App Privacy answers, and any applicable App Tracking Transparency requirement against the final Xcode privacy report. This feature remains off in the supplied default build until a Unity project is linked, privacy settings are configured, and the consent choice is enabled.</p>
+<p>Where applicable, the legal basis for this optional collection is your consent (GDPR Article 6(1)(a)). Consent is voluntary and may be withdrawn at any time for the future. Processing before withdrawal remains lawful.</p>
+<h3>Advertising and consent management</h3>
+<p>Advertising is disabled in the supplied default build. If enabled for a later worldwide release, ORBIT uses Google Mobile Ads and Google's User Messaging Platform (UMP). UMP consent information is refreshed at app launch; a UMP form appears only where the applicable region and configuration require a message. The Game provides a visible privacy-options entry point when UMP requires one. A rewarded video starts only after a completed run, only when you expressly choose it, and at most once per run. Advertising is never required to play.</p>
+<p>Depending on your country, choices, and AdMob configuration, Google and its advertising partners may process app/device identifiers, IP address, approximate region, consent status, ad delivery, impression or interaction, and technical diagnostics. Personalized advertising or tracking will not be enabled without the consent or operating-system permission required for the relevant use. On Apple devices, App Tracking Transparency is requested only if the final advertising setup actually involves tracking across apps owned by other providers. Declining must not block access to the Game or core features; ads may then be non-personalized or unavailable.</p>
+<p>Before activation, the publisher must configure and publish region-appropriate privacy/UMP messages in AdMob, a required privacy-options entry point, and the applicable ad disclosures, and verify them on iOS and Android. Adding an SDK alone does not complete this configuration.</p>
+<h3>Store purchases</h3>
+<p>The Android 1.2 monetization implementation also supports occasional interstitial ads at a deliberate transition after a successful run. It does not show banners, app-open ads, ads during battle, tutorial ads, or ads after a loss. A non-consumable Remove All Ads purchase disables both interstitial and rewarded videos; optional reward bonuses are then available without video playback. Purchase ownership is stored locally and can be restored from the app store. Advertising remains disabled until the publisher configures the real release services.</p>
+<p>In-app purchases are disabled in the supplied default configuration. If enabled, they are non-consumable cosmetic color styles and the permanent ad-free entitlement. Apple App Store or Google Play handles payment and the store receipt. ORBIT does not receive full card or bank details; store SDKs may process order/product identifiers, status, store account references, and technical information for purchase, verification, restore, and refunds. ORBIT stores local cosmetic and ad-free ownership so the purchased benefit is available in the Game. Purchases can be retrieved through the store's restore flow.</p>
+<h3>Audio, haptics, and permissions</h3>
+<p>Sound is generated locally at runtime; ORBIT does not request microphone access. Haptics and motion effects are controlled locally. The described gameplay does not require contacts, camera, microphone, precise location, or location permission.</p>
+<h2>3. Services and recipients</h2>
+<p>If a later release activates a feature, the following providers may receive data for that feature:</p>
+<ul>
+<li><strong>Unity Technologies</strong>: Unity Analytics and Unity Developer Data, only after setup and subject to the analytics choice described above.</li>
+<li><strong>Google</strong>: Google Mobile Ads and UMP, only when ads are configured for release and UMP messages are set up.</li>
+<li><strong>Apple</strong> or <strong>Google</strong>: app-store billing, purchase restore, and store integrity if in-app purchases are enabled.</li>
+<li><strong>Operating-system and device providers</strong>: app installation, system functions, backups, and security or crash diagnostics that the device provider handles under its own settings.</li>
+</ul>
+<p>Providers may act as independent controllers for their own platform/security purposes and as processors for other operations. Their current notices also apply: <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>, <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://www.apple.com/legal/privacy/">Apple Privacy</a>, and Google Play's privacy information.</p>
+<p>For a worldwide release, third parties may process data outside the country where you play. Their current information describes the locations and transfer mechanisms they use. In the supplied default build, ORBIT does not send save data to its own server.</p>
+<h2>4. Retention and deletion</h2>
+<p>The local save remains until you reset it in the Game, clear app data in device settings, or uninstall the Game; operating-system backups may persist separately. Analytics and advertising data are sent only when the corresponding feature is enabled and are handled under the relevant provider's retention and deletion rules. If Analytics is enabled, DELETE OPTIONAL ANALYTICS DATA can submit a deletion request through Unity's SDK after consent is withdrawn. It does not delete data held by Google, Apple, or the operating system. For a specific store transaction, you may also need to contact the relevant app store.</p>
+<h2>5. Your rights</h2>
+<p>Where the GDPR applies, you may have rights to access, rectify, erase, restrict, and port personal data, and to object to processing based on legitimate interests. You can withdraw consent at any time for future processing. You may also complain to a supervisory authority, particularly in the country of your habitual residence, place of work, or alleged infringement. For the provider's location in Baden-Wuerttemberg, Germany, contact the <a href="https://www.baden-wuerttemberg.datenschutz.de/">State Commissioner for Data Protection and Freedom of Information Baden-Wuerttemberg</a>.</p>
+<p>Where applicable, national privacy laws may grant additional rights, such as access, correction, deletion, objection, or choices concerning certain advertising uses or disclosures. ORBIT does not run its own business selling player data. If advertising is added later, recipients and available regional privacy choices depend on the final AdMob/UMP configuration. Send requests to <a href="mailto:hec_er@web.de">hec_er@web.de</a>. We may request reasonable information to verify a request and will respond within the time limits set by applicable law.</p>
+<h2>6. Children and general audience</h2>
+<p>ORBIT is for a general audience and is not specifically marketed to children under 13. Age and advertising rules differ worldwide; the app-store age rating and any locally required parental consent must be followed. If a parent or guardian believes a child submitted personal data to an optional service, contact <a href="mailto:hec_er@web.de">hec_er@web.de</a>. We will review the matter and, where required, stop further collection and request deletion.</p>
+<h2>7. Changes</h2>
+<p>This policy will be updated if ORBIT introduces SDKs, data types, recipients, or purposes, or applicable requirements change. The current version is available through the link shown in the Game and on the store listing.</p>
+    </article>
+  </main>
+  <footer><span>ORBIT &middot; conneptic</span><a href="mailto:hec_er@web.de">hec_er@web.de</a></footer>
+</body>
+</html>
